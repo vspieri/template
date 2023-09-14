@@ -12,42 +12,41 @@ import "./App.css";
 
 const theme = createTheme({
   palette: {
-    mode: 'light',
+    mode: 'dark',
     primary: {
-      main: '#ff9100',
-      light: '#ffab40',
-      dark: '#f57c00',
-      contrastText: '#7b19ff',
-    },
-    secondary: {
-      main: '#7b19ff',
-      light: '#ba8aff',
-      dark: '#6620c5',
-    },
-    text: {
-      primary: '#757575',
-      secondary: '#9e9e9e',
-      hint: '#ffb74d',
-      disabled: '#bdbdbd',
-    },
-    error: {
-      main: '#d50000',
+      main: '#f304ed',
+      light: '#fd3af8',
+      dark: '#ad05a8',
       contrastText: '#ffffff',
     },
-    background: {
-      default: '#a4a4a4',
+    secondary: {
+      main: '#bb0566',
+      light: '#c53682',
+      dark: '#85054a',
+      contrastText: '#ffffff',
     },
-    warning: {
-      main: '#ffc80d',
+    error: {
+      main: '#ff1d0e',
+      light: '#f9483c',
+      dark: '#b91509',
+      contrastText: '#ffffff',
     },
     info: {
-      main: '#0073b3',
+      main: '#20b1f3',
     },
-    success: {
-      main: '#0ebd3a',
+    success: {      main: '#1abd21',
     },
-    divider: '#5109b3',
-  }
+    text: {
+      primary: '#000000',
+      secondary: 'rgba(255,255,255,0.7)',
+      disabled: 'rgba(255,255,255,0.5)',
+    },
+    background: {
+      default: '#000000',
+      paper: '#181818',
+    },
+    divider: 'rgba(255,255,255,0.12)',
+  },
 });
 
 const router = createBrowserRouter([
